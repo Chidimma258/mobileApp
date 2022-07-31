@@ -26,8 +26,233 @@ body{
     position: relative;
     display: flex;
     margin-top: -236px;
+    margin-inline: auto;
 }
 
 .engineer-img{
+    display: flex;
     z-index: 1;
+}
+
+.bi-arrow-right-circle{
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: -168px;
+    z-index: 1;
+}
+
+.blue-square{
+    background: #7FC4DD;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.bg-aqua{
+    width: 70%;
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+    background: rgb(0, 195, 255);
+    padding-left: 1rem;
+    border-radius: 1rem;
+}
+
+.female-img{
+    position: absolute;
+   z-index: 1;
+    right: 0;
+    top: 40px;
+    margin-right: 5px;
+}
+
+.bg-ligh{
+    height: 1rem;
+    width: 1rem;
+    background: burlywood;
+}
+
+.txt1{
+    z-index: 2;
+}
+
+.bg-white{
+    width: 167px;
+    height: 180px;
+    border-radius: 1rem;
+}
+
+.bg-sm{
+    width: 147px;
+    height: 52px;
+    border-radius: 1rem;
+  
+}
+
+.col-a{
+    position: absolute;
+    right: 0;
+    top: 161px;
+    margin-right: 3px;
+}
+
+.bg-sm1{
+    width: 140px;
+    height: 52px;
+    border-radius: 1rem;
+}
+
+.book-btn{
+  border-radius: 3rem;
+}
+
+.sectionA{
+    /* background: wh; */
+    position: fixed;
+    bottom: 0;
+}
+.bg-orange {
+    width: 304px;
+    height: 160px;
+    margin-top: 4px;
+}
+
+.bg-sm2{
+    width: 110px;
+    height: 47px;
+    border-radius: 1rem;
+}
+
+.txt2{
+    /* position: relative;
+    top: -26px;
+    margin-left: 5px;
+    margin-top: 2px;
+    color: white; */
+}
+.bg-dark{
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.btn-checkout{
+    width: 80%!important;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.bg-bl{
+    background: #ecfffe;
+    width: 6rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.bg-dar{
+    width: 3rem;
+    height: 3rem;
+    background: rgb(230, 241, 240);
+    border-radius: 3rem;
+}
+
+.cartegory-section{
+    overflow-x: hidden;
+}
+
+.primary-blue{
+    fill: rgb(0, 166, 255);
+}
+.bg-lit{
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    background: rgb(220, 255, 250);
+}
+.bg-lb{
+    padding: 10px;
+    border-radius: 5px; 
+}
+.txt-sm{
+    font-size: revert!important;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+
+.card-section{
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.margin-T{
+    margin-top: 6rem;
+}
+.dropdown-menu {
+    position: static;
+    display: block;
+    width: auto;
+    margin: 2rem auto;
+  }
+
+  .form-select{
+      width: 50%!important;
+  }
+ .form-1{
+    height: 3rem;
+    border-radius: 5px;
+}
+  .cal-month,
+  .cal-days,
+  .cal-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+  }
+  .cal-month-name {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    text-align: center;
+  }
+  .cal-weekday,
+  .cal-btn {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    padding: 0;
+  }
+  .cal-btn:not([disabled]) {
+    font-weight: 500;
+  }
+
+
+@media(max-width: 320px){
+    .book-btn{
+        margin-top: 30px!important;
+        padding: 5px!important;
+        font-weight: light!important;
+    }
+   .f-img{
+       width: 130px;
+       height: 170px;
+       margin-top: 70px!important;
+   }
+
+   .man-img{
+     width: 230px!important;  
+     height: 250px!important;
+   }
+
+   .bg-whit{
+       width: 145px;
+   }
+   .bg-sm{
+       width: 130px;
+   }
+   
 }
