@@ -1,0 +1,29 @@
+{
+  "name": "Nft",
+  "version": "1.0.0",
+  "description": "Nft landing page",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chidimma258/Landify.git"
+  },
+  "keywords": [
+    "landing",
+    "home",
+    "page"
+  ],
+  "author": "Chidimma okoye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chidimma258/Landify/issues"
+  },
+  "homepage": "https://github.com/Chidimma258/Landify#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background: rgb(245, 248, 248);
+}
+
+.txt-blue{
+    color: rgb(76, 76, 243);
+}
+
+
+.info-btn1{
+    border-radius: 1rem;
+}
+.info-btn{
+    border-radius: 1rem;
+    display: flex;
+    margin-left: auto;
+}
+
+.mask-img{
+    position: relative;
+    display: flex;
+    margin-top: -236px;
+}
+
+.engineer-img{
+    z-index: 1;
+}
